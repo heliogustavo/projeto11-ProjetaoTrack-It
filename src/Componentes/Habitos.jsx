@@ -13,13 +13,13 @@ export default function Habitos() {
             <CaixaADDHabito>
                 <InputNomeDoHabito type="text" placeholder="Nome do Hábito" name="habito" />
                 <ContainerButtons>
-                    <button>D</button>
-                    <button>S</button>
-                    <button>T</button>
-                    <button>Q</button>
-                    <button>Q</button>
-                    <button>S</button>
-                    <button>S</button>
+                    <BotaoDiaLetra>D</BotaoDiaLetra>
+                    <BotaoDiaLetra>S</BotaoDiaLetra>
+                    <BotaoDiaLetra>T</BotaoDiaLetra>
+                    <BotaoDiaLetra>Q</BotaoDiaLetra>
+                    <BotaoDiaLetra>Q</BotaoDiaLetra>
+                    <BotaoDiaLetra>S</BotaoDiaLetra>
+                    <BotaoDiaLetra>S</BotaoDiaLetra>
                 </ContainerButtons>
                 <BotaoCancelar>Cancelar</BotaoCancelar>
                 <BotaoSalvar>Salvar</BotaoSalvar>
@@ -99,7 +99,7 @@ const ContainerButtons = styled.div`
     margin-left: 9px;
     margin-top: 10px;
 `
-const button = styled.button`
+const BotaoDiaLetra= styled.button`
 width: 30px;
 height: 30px;
 background: #FFFFFF;

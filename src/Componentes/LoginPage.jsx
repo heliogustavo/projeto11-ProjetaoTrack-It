@@ -1,8 +1,23 @@
 import styled from "styled-components"
+import { useEffect, useState } from "react"
+import axios from "axios"
 import Logo1 from "../assets/logoTrackIt.png"
 
-export default function LoginPage() {
+export default function LoginPage() {   
+
+    /* jgPNp85bnXHfvN5hg3r84SV5 */
+
+    useEffect(() => {
+        const requisicao = axios.get("https://mock-api.bootcamp.respondeai.com.br/api/v2/trackit/auth/sign-up");
+
+        requisicao.then(resposta => {
+            console.log(resposta.data)
+        });
+    }, []);
+    
+
     return (
+
 
 
         <form>

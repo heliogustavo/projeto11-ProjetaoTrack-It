@@ -13,11 +13,12 @@ export default function App() {
   return (
     <>
       <GlobalStyle />
-{/*       <LoginPage />
+{/*      
+      <Hoje/>
       <Cadastro/> 
             <Habitos/>*/}
       <TopoPerfil/>
-      <Hoje/>
+      <LoginPage />
       <Rodape/>
     </>
   )
